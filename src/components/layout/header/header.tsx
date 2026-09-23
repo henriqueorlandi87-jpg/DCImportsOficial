@@ -39,7 +39,7 @@ export default function Header() {
               />
 
               <span className="inline-block px-1.5 py-0.5 rounded-lg rounded-bl-none bg-primary-500/90 text-white text-xs font-medium mb-0.5">
-                Demo
+                Dc Imports
               </span>
             </Link>
           </div>
