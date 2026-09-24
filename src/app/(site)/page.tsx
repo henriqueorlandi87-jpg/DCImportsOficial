@@ -22,15 +22,15 @@ interface CartItem extends Product {
 const productsData: Product[] = [
   {
     id: 1,
-    name: "Retatrutide (Kit Total 120 mg)",
-    concentration: "24 mg per vial",
-    description: "Provided for professional analytical use only. Manufactured in strict compliance with ISO 17034:2015 as a Certified Reference Material (CRM).",
+    name: "Tirzepatide Pro Kit",
+    concentration: "30 mg per vial",
+    description: "High-grade analytical reference material for laboratory research and calibration.",
     manufacturer: "ZPHC Profi-Line",
-    reference: "CAS No.: 2381089-83-2",
+    reference: "CAS No.: 2023788-19-2",
     image: "https://cdestore.com.py/image/cache/catalog/medicamento/screenshot2026-07-30131954-450x450.png",
-    category: "RETATRUTIDA",
-    priceBRL: 660.00,
-    oldPriceBRL: 825.00,
+    category: "TIRZEPATIDA",
+    priceBRL: 544.50,
+    oldPriceBRL: 770.00,
   },
   {
     id: 2,
