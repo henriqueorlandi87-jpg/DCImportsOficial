@@ -315,14 +315,19 @@ export default function ZPHCStorePage() {
   };
 
   const filteredProducts = productsData.filter((p) => {
-    const matchesCategory = selectedCategory === "PROMOÇÕES" 
-      ? (p.oldPriceBRL && p.oldPriceBRL > p.priceBRL) 
-      : (p.category === selectedCategory);
-    
-    const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    const matchesSearch = searchTerm.trim() === "" || 
+                          p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                           p.description.toLowerCase().includes(searchTerm.toLowerCase());
     
-    return matchesCategory && matchesSearch;
+    // Se o usuário digitou algo na pesquisa, filtra por nome/descrição em toda a loja
+    if (searchTerm.trim() !== "") {
+      return matchesSearch;
+    }
+
+    // Caso contrário, filtra normalmente pela categoria selecionada
+    return selectedCategory === "PROMOÇÕES" 
+      ? (p.oldPriceBRL && p.oldPriceBRL > p.priceBRL) 
+      : (p.category === selectedCategory);
   });
 
   const addToCart = (product: Product) => {
