@@ -31,7 +31,7 @@ const productsData: Product[] = [
   },
   {
     id: 2,
-    name: "Tirzepatida Lipolles 60mg MD",
+    name: "Tirzepatida Lipoless 60mg MD",
     concentration: "1 ampola de 60mg MD",
     description: "Ampola única - total de 60mg.",
     manufacturer: "ETICOS",
@@ -41,7 +41,7 @@ const productsData: Product[] = [
   },
   {
     id: 3,
-    name: "Tirzepatida Lipolles 15mg",
+    name: "Tirzepatida Lipoless 15mg",
     concentration: "15mg por ampola",
     description: "4 ampolas de 15mg, totalizando 60mg.",
     manufacturer: "ETICOS",
@@ -201,7 +201,7 @@ const productsData: Product[] = [
   },
   {
     id: 19,
-    name: "Tirzepatida Tirgegen 60mg",
+    name: "Tirzepatida Tirzegen 60mg",
     concentration: "Ampola com 60mg",
     description: "1 ampola de 60mg Liofilizada",
     manufacturer: "OXYGEN",
@@ -540,4 +540,4 @@ export default function ZPHCStorePage() {
       )}
     </div>
   );
-}
+}git
