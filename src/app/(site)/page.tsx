@@ -27,27 +27,27 @@ const productsData: Product[] = [
     manufacturer: "INDUFAR",
     image: "https://cdestore.com.py/image/cache/catalog/medicamento/tg15-450x450.png",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 2,
-    name: "Tirzepatida Lipoless 60mg MD",
+    name: "Tirzepatida Lipolles 60mg MD",
     concentration: "1 ampola de 60mg MD",
     description: "Ampola única - total de 60mg.",
     manufacturer: "ETICOS",
     image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/produtos/thumbs/big/068c98b7954bf75eb4648aab973bbd167f1fe674.webp",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 3,
-    name: "Tirzepatida Lipoless 15mg",
+    name: "Tirzepatida Lipolles 15mg",
     concentration: "15mg por ampola",
     description: "4 ampolas de 15mg, totalizando 60mg.",
     manufacturer: "ETICOS",
     image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/produtos/thumbs/med/f05ee02e9de115f9378ba1c6bad6e30fcec98ee0.webp",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ const productsData: Product[] = [
     manufacturer: "QUIMFA",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_tirzec_15mg_05ml_204052_8e485f7a-bbba-4896-bb61-624a2086ad87.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ const productsData: Product[] = [
     manufacturer: "LIPOLAND",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_lipoland_15mg_05ml_1_frasco_204051_e161ad05-31c6-42e2-9beb-476d9bca90a8.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 6,
@@ -75,9 +75,9 @@ const productsData: Product[] = [
     concentration: "15mg por ampola",
     description: "4 ampolas de 15mg cada, totalizando 60 mg.",
     manufacturer: "LIPOLAND",
-    image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/modelos/tirzepatida_lipoland_15mg_05ml_4_frascos_198734_3acc233b-caab-4b5f-9045-4a0bfa5d67d5.avif",
+    image: "https://bucket-prod.us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_lipoland_15mg_05ml_4_frascos_198734_3acc233b-caab-4b5f-9045-4a0bfa5d67d5.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ const productsData: Product[] = [
     manufacturer: "GLUCONEX",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_gluconex_15mg_1ml_198243_ea91a962-658e-400f-959e-e657ff300229.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ const productsData: Product[] = [
     manufacturer: "Tirzedral",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_gluconex_15mg_1ml_198243_ea91a962-658e-400f-959e-e657ff300229.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 9,
@@ -107,7 +107,7 @@ const productsData: Product[] = [
     manufacturer: "T 36",
     image: "",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 10,
@@ -115,9 +115,9 @@ const productsData: Product[] = [
     concentration: "15mg por Ampola",
     description: "4 ampolas de 15mg cada, totalizando 60 mg.",
     manufacturer: "TIRZEDRAL",
-    image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/modelos/tirzepatida_tirzedral_15mg_05ml_204050_545a226f-f7c6-436e-a9f6-cda1fd210da5.avif",
+    image: "https://bucket-prod.us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_tirzedral_15mg_05ml_204050_545a226f-f7c6-436e-a9f6-cda1fd210da5.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 11,
@@ -125,9 +125,9 @@ const productsData: Product[] = [
     concentration: "15mg por ampola",
     description: "4 ampolas de 15mg cada, totalizando 60 mg.",
     manufacturer: "T 36",
-    image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/modelos/tirzepatida_t36_15mg_05ml_204036_172f9994-dbb2-4ecf-a5d8-1d31ece5baf3.avif",
+    image: "https://bucket-prod.us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_t36_15mg_05ml_204036_172f9994-dbb2-4ecf-a5d8-1d31ece5baf3.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 12,
@@ -135,9 +135,9 @@ const productsData: Product[] = [
     concentration: "60mg por ampola",
     description: "Ampola única de 60mg.",
     manufacturer: "SLIMEX",
-    image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/modelos/tirzepatida_slimex_md_15mg_06ml_204054_f5b181c2-b47e-4d16-a179-9e7eb7a50bf6.avif",
+    image: "https://bucket-prod.us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_slimex_md_15mg_06ml_204054_f5b181c2-b47e-4d16-a179-9e7eb7a50bf6.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 13,
@@ -145,9 +145,9 @@ const productsData: Product[] = [
     concentration: "15mg por ampola",
     description: "4 ampolas de 15mg cada, totalizando 60 mg.",
     manufacturer: "SLIMEX",
-    image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/modelos/tirzepatida_slimex_15mg_05ml_204055_db54d00e-2857-4a1c-89c0-1154b8564c22.avif",
+    image: "https://bucket-prod.us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_slimex_15mg_05ml_204055_db54d00e-2857-4a1c-89c0-1154b8564c22.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 14,
@@ -155,9 +155,9 @@ const productsData: Product[] = [
     concentration: "60mg MD",
     description: "Ampola única de 60mg.",
     manufacturer: "TNL",
-    image: "c:\Users\Usuario\Downloads\FC33873D-2EF1-4C66-A9E2-9A213AB20DBE.png",
+    image: "https://atacadoparaguai.com.py/wp-content/uploads/2026/07/F32AFB50-482D-4174-9510-BB3056308CD0.webp",
     category: "TIRZEPATIDA",
-    priceBRL: 680.00,
+    priceBRL: 680,
   },
   {
     id: 15,
@@ -167,7 +167,7 @@ const productsData: Product[] = [
     manufacturer: "TNL",
     image: "https://cdestore.com.py/image/cache/catalog/medicamento/screenshot2026-06-17072403-450x450.png",
     category: "TIRZEPATIDA",
-    priceBRL: 700.00,
+    priceBRL: 700,
   },
   {
     id: 16,
@@ -177,7 +177,7 @@ const productsData: Product[] = [
     manufacturer: "THERA GENETICS",
     image: "https://totalvape.s3.sa-east-1.amazonaws.com/products/809d11f9-4184-4f3b-9817-87e35b03d869.webp?v=1789486203",
     category: "TIRZEPATIDA",
-    priceBRL: 820.00,
+    priceBRL: 820,
   },
   {
     id: 17,
@@ -187,7 +187,7 @@ const productsData: Product[] = [
     manufacturer: "SYNEDICA",
     image: "https://totalvape.s3.sa-east-1.amazonaws.com/products/2373d4ce-a3f0-41f6-9a82-c19326c71932.webp?v=1790015402",
     category: "TIRZEPATIDA",
-    priceBRL: 1080.00,
+    priceBRL: 1080,
   },
   {
     id: 18,
@@ -197,17 +197,17 @@ const productsData: Product[] = [
     manufacturer: "SYNEDICA",
     image: "https://cdestore.com.py/image/cache/catalog/medicamento/tirzerpsynedica-450x450.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 600.00,
+    priceBRL: 600,
   },
   {
     id: 19,
-    name: "Tirzepatida Tirzegen 60mg",
+    name: "Tirzepatida Tirgegen 60mg",
     concentration: "Ampola com 60mg",
     description: "1 ampola de 60mg Liofilizada",
     manufacturer: "OXYGEN",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRy72LOGaxsr1sw6BW97tuoW_nzobcORohg3MtRVNAaXdbNPYXcRIvxrrS&s=10",
     category: "TIRZEPATIDA",
-    priceBRL: 740.00,
+    priceBRL: 740,
   },
   {
     id: 20,
@@ -217,7 +217,7 @@ const productsData: Product[] = [
     manufacturer: "THERA",
     image: "https://totalvape.s3.sa-east-1.amazonaws.com/products/4ab49fda-5950-4cfb-a960-afdd172d509f.webp?v=1790105403",
     category: "TIRZEPATIDA",
-    priceBRL: 640.00,
+    priceBRL: 640,
   },
   {
     id: 21,
@@ -227,7 +227,7 @@ const productsData: Product[] = [
     manufacturer: "ZPHC",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS53s0QOwEVuAwj4bE7hARl85vFrNJQFKHN3uqMQi0q3g&s",
     category: "TIRZEPATIDA",
-    priceBRL: 1800.00,
+    priceBRL: 1800,
   },
   {
     id: 22,
@@ -237,7 +237,7 @@ const productsData: Product[] = [
     manufacturer: "ZPHC",
     image: "https://precosnoparaguai.s3.amazonaws.com/product_images/d8422ea5-cd2e-4dbc-90e2-c97cdf20aed8.png",
     category: "TIRZEPATIDA",
-    priceBRL: 1350.00,
+    priceBRL: 1350,
   },
   {
     id: 23,
@@ -247,7 +247,7 @@ const productsData: Product[] = [
     manufacturer: "PEPTIDE SCIENCES",
     image: "https://cdestore.com.py/image/cache/catalog/medicamento/tirzerpatida/screenshot2026-06-24110119-450x450.png",
     category: "TIRZEPATIDA",
-    priceBRL: 650.00,
+    priceBRL: 650,
   },
   {
     id: 24,
@@ -257,7 +257,7 @@ const productsData: Product[] = [
     manufacturer: "BIOGENESIS",
     image: "https://atacadoparaguai.com.py/produto/biogenesis-tirzepatide-60mg-01-vial/",
     category: "TIRZEPATIDA",
-    priceBRL: 550.00,
+    priceBRL: 550,
   },
   {
     id: 25,
@@ -267,7 +267,7 @@ const productsData: Product[] = [
     manufacturer: "BIOGENESIS",
     image: "https://atacadoparaguai.com.py/produto/biogenesis-tirzepatide-120mg/",
     category: "TIRZEPATIDA",
-    priceBRL: 950.00,
+    priceBRL: 950,
   },
   {
     id: 26,
@@ -277,7 +277,7 @@ const productsData: Product[] = [
     manufacturer: "USA",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxyvVInTP5YjxgS8AaTjiaQyu2DwJpPPS2H4Kkz0zLCw&s=10",
     category: "TIRZEPATIDA",
-    priceBRL: 590.00,
+    priceBRL: 590,
   },
   {
     id: 27,
@@ -287,7 +287,7 @@ const productsData: Product[] = [
     manufacturer: "USA",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUe4Su9lQYYjGHgC9vhOdsjTA6OCCZuNoPz6ae8DTMPQ&s=10",
     category: "TIRZEPATIDA",
-    priceBRL: 700.00,
+    priceBRL: 700,
   },
   {
     id: 28,
@@ -297,7 +297,7 @@ const productsData: Product[] = [
     manufacturer: "USA",
     image: "https://res.cloudinary.com/dpoxr28p0/image/fetch/f_auto,q_auto:good,w_800,c_limit/https%3A%2F%2Fwww.royalvitta.com%2Fproducts%2Fusa-peptides-tirzepatida-120mg-4ml-frasco-multidose.webp%3Fv%3Db003b5c1",
     category: "TIRZEPATIDA",
-    priceBRL: 1000.00,
+    priceBRL: 1000,
   },
 ];
 
@@ -315,16 +315,13 @@ export default function ZPHCStorePage() {
   };
 
   const filteredProducts = productsData.filter((p) => {
-    const matchesSearch = searchTerm.trim() === "" || 
-                          p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          p.description.toLowerCase().includes(searchTerm.toLowerCase());
-    
-    // Se o usuário digitou algo na pesquisa, filtra por nome/descrição em toda a loja
     if (searchTerm.trim() !== "") {
-      return matchesSearch;
+      return (
+        p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        p.description.toLowerCase().includes(searchTerm.toLowerCase())
+      );
     }
 
-    // Caso contrário, filtra normalmente pela categoria selecionada
     return selectedCategory === "PROMOÇÕES" 
       ? (p.oldPriceBRL && p.oldPriceBRL > p.priceBRL) 
       : (p.category === selectedCategory);
@@ -420,9 +417,12 @@ export default function ZPHCStorePage() {
           {categories.map((category) => (
             <button
               key={category}
-              onClick={() => setSelectedCategory(category)}
+              onClick={() => {
+                setSelectedCategory(category);
+                setSearchTerm("");
+              }}
               className={`px-6 py-2 rounded-full text-sm font-semibold tracking-wider transition-all border ${
-                selectedCategory === category
+                selectedCategory === category && searchTerm === ""
                   ? "bg-blue-600 text-white shadow-md scale-105 border-blue-500"
                   : category === "PROMOÇÕES"
                   ? "bg-red-600 text-white hover:bg-red-500 border-red-500 animate-pulse"
