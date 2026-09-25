@@ -301,8 +301,11 @@ const productsData: Product[] = [
   },
 ];
 
+const categories = ["PROMOÇÕES", "RETATRUTIDA", "TIRZEPATIDA", "PEPTÍDEOS", "HORMÔNIOS"];
+
 export default function ZPHCStorePage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("PROMOÇÕES");
+  const [searchTerm, setSearchTerm] = useState<string>("");
   const [cart, setCart] = useState<CartItem[]>([]);
 
   const cartRef = useRef<HTMLDivElement>(null);
@@ -311,11 +314,16 @@ export default function ZPHCStorePage() {
     cartRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const categories = ["PROMOÇÕES", "RETATRUTIDA", "TIRZEPATIDA", "PEPTÍDEOS", "HORMÔNIOS"];
-
-  const filteredProducts = selectedCategory === "PROMOÇÕES"
-    ? productsData.filter(p => p.oldPriceBRL && p.oldPriceBRL > p.priceBRL)
-    : productsData.filter(p => p.category === selectedCategory);
+  const filteredProducts = productsData.filter((p) => {
+    const matchesCategory = selectedCategory === "PROMOÇÕES" 
+      ? (p.oldPriceBRL && p.oldPriceBRL > p.priceBRL) 
+      : (p.category === selectedCategory);
+    
+    const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          p.description.toLowerCase().includes(searchTerm.toLowerCase());
+    
+    return matchesCategory && matchesSearch;
+  });
 
   const addToCart = (product: Product) => {
     setCart(prevCart => {
@@ -391,6 +399,17 @@ export default function ZPHCStorePage() {
           </div>
         </div>
 
+        {/* BARRA DE PESQUISA EM QUADRO BRANCO */}
+        <div className="max-w-xl mx-auto px-4 mb-6">
+          <input
+            type="text"
+            placeholder="Pesquisar produtos..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full px-5 py-3.5 bg-white text-gray-900 rounded-2xl shadow-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base font-medium placeholder-gray-400"
+          />
+        </div>
+
         {/* Botões de Filtro */}
         <div className="flex justify-center gap-2 flex-wrap mb-10">
           {categories.map((category) => (
@@ -451,7 +470,7 @@ export default function ZPHCStorePage() {
             ))
           ) : (
             <div className="col-span-full text-center py-12 text-blue-300 font-medium bg-blue-900/40 rounded-3xl border border-blue-800">
-              Nenhum produto encontrado nesta categoria no momento.
+              Nenhum produto encontrado com esse termo de pesquisa.
             </div>
           )}
         </div>
