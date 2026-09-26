@@ -155,9 +155,9 @@ const productsData: Product[] = [
     concentration: "60mg MD",
     description: "Ampola única de 60mg.",
     manufacturer: "TNL",
-    image: "https://atacadoparaguai.com.py/wp-content/uploads/2026/07/F32AFB50-482D-4174-9510-BB3056308CD0.webp",
+    image: "https://imgur.com/a/NiOcquf",
     category: "TIRZEPATIDA",
-    priceBRL: 680,
+    priceBRL: 680,0-BB305
   },
   {
     id: 15,
