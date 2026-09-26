@@ -157,7 +157,7 @@ const productsData: Product[] = [
     manufacturer: "TNL",
     image: "https://imgur.com/a/NiOcquf",
     category: "TIRZEPATIDA",
-    priceBRL: 680,0-BB305
+    priceBRL: 680,
   },
   {
     id: 15,
