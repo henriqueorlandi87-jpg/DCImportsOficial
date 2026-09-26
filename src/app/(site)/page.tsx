@@ -27,7 +27,7 @@ const productsData: Product[] = [
     manufacturer: "INDUFAR",
     image: "https://cdestore.com.py/image/cache/catalog/medicamento/tg15-450x450.png",
     category: "TIRZEPATIDA",
-    priceBRL: 740,
+    priceBRL: 780,
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const productsData: Product[] = [
     manufacturer: "ETICOS",
     image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/produtos/thumbs/big/068c98b7954bf75eb4648aab973bbd167f1fe674.webp",
     category: "TIRZEPATIDA",
-    priceBRL: 740,
+    priceBRL: 770,
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ const productsData: Product[] = [
     manufacturer: "QUIMFA",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_tirzec_15mg_05ml_204052_8e485f7a-bbba-4896-bb61-624a2086ad87.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740,
+    priceBRL: 780,
   },
   {
     id: 5,
@@ -67,7 +67,7 @@ const productsData: Product[] = [
     manufacturer: "LIPOLAND",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_lipoland_15mg_05ml_1_frasco_204051_e161ad05-31c6-42e2-9beb-476d9bca90a8.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 740,
+    priceBRL: 760,
   },
   {
     id: 6,
@@ -77,7 +77,7 @@ const productsData: Product[] = [
     manufacturer: "LIPOLAND",
     image: "https://i.imgur.com/q0bNmmg.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 740,
+    priceBRL: 770,
   },
   {
     id: 7,
@@ -157,7 +157,7 @@ const productsData: Product[] = [
     manufacturer: "TNL",
     image:"https://i.imgur.com/QdlfuMl.png",
     category: "TIRZEPATIDA",
-    priceBRL: 680,
+    priceBRL: 700,
   },
   {
     id: 15,
@@ -201,13 +201,13 @@ const productsData: Product[] = [
   },
   {
     id: 19,
-    name: "Tirzepatida Tirgegen 60mg",
+    name: "Tirzepatida Tirzegen 60mg",
     concentration: "Ampola com 60mg",
     description: "1 ampola de 60mg Liofilizada",
     manufacturer: "OXYGEN",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRy72LOGaxsr1sw6BW97tuoW_nzobcORohg3MtRVNAaXdbNPYXcRIvxrrS&s=10",
     category: "TIRZEPATIDA",
-    priceBRL: 740,
+    priceBRL: 770,
   },
   {
     id: 20,
@@ -240,22 +240,12 @@ const productsData: Product[] = [
     priceBRL: 1350,
   },
   {
-    id: 23,
-    name: "Peptides Sciences 60mg",
-    concentration: "Ampola com 60mg",
-    description: "Ampola única de 60mg Liofilizada",
-    manufacturer: "PEPTIDE SCIENCES",
-    image: "https://cdestore.com.py/image/cache/catalog/medicamento/tirzerpatida/screenshot2026-06-24110119-450x450.png",
-    category: "TIRZEPATIDA",
-    priceBRL: 650,
-  },
-  {
     id: 24,
     name: "Biogenesis 60mg",
     concentration: "ampola com 60mg",
     description: "1 Ampola de 60mg Liofilizada",
     manufacturer: "BIOGENESIS",
-    image: "https://atacadoparaguai.com.py/produto/biogenesis-tirzepatide-60mg-01-vial/",
+    image: "https://i.imgur.com/hxiLmH8.jpeg",
     category: "TIRZEPATIDA",
     priceBRL: 550,
   },
@@ -265,19 +255,9 @@ const productsData: Product[] = [
     concentration: "Ampola com 120mg",
     description: "1 Ampola de 120mg Liofilizada",
     manufacturer: "BIOGENESIS",
-    image: "https://atacadoparaguai.com.py/produto/biogenesis-tirzepatide-120mg/",
+    image: "https://i.imgur.com/x58SMEk.jpeg",
     category: "TIRZEPATIDA",
     priceBRL: 950,
-  },
-  {
-    id: 26,
-    name: "USA Peptideos 30mg",
-    concentration: "1 Ampola de 30mg",
-    description: "1 Ampola de 30mg",
-    manufacturer: "USA",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxyvVInTP5YjxgS8AaTjiaQyu2DwJpPPS2H4Kkz0zLCw&s=10",
-    category: "TIRZEPATIDA",
-    priceBRL: 590,
   },
   {
     id: 27,
@@ -297,7 +277,7 @@ const productsData: Product[] = [
     manufacturer: "USA",
     image: "https://res.cloudinary.com/dpoxr28p0/image/fetch/f_auto,q_auto:good,w_800,c_limit/https%3A%2F%2Fwww.royalvitta.com%2Fproducts%2Fusa-peptides-tirzepatida-120mg-4ml-frasco-multidose.webp%3Fv%3Db003b5c1",
     category: "TIRZEPATIDA",
-    priceBRL: 1000,
+    priceBRL: 1150,
   },
 ];
 
