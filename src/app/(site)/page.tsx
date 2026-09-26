@@ -267,7 +267,7 @@ const productsData: Product[] = [
     manufacturer: "USA",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUe4Su9lQYYjGHgC9vhOdsjTA6OCCZuNoPz6ae8DTMPQ&s=10",
     category: "TIRZEPATIDA",
-    priceBRL: 700,
+    priceBRL: 750,
   },
   {
     id: 28,
