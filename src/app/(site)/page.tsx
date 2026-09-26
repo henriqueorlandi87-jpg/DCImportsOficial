@@ -155,7 +155,7 @@ const productsData: Product[] = [
     concentration: "60mg MD",
     description: "Ampola única de 60mg.",
     manufacturer: "TNL",
-    image:"produto14.png",
+    image:"/images/produto14j.png",
     category: "TIRZEPATIDA",
     priceBRL: 680,
   },
