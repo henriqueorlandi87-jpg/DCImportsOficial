@@ -155,7 +155,7 @@ const productsData: Product[] = [
     concentration: "60mg MD",
     description: "Ampola única de 60mg.",
     manufacturer: "TNL",
-    image:"https://cdestore.com.py/image/cache/catalog/medicamento/screenshot2026-06-17072403-450x450.png",
+    image:"https://i.imgur.com/QdlfuMl.png",
     category: "TIRZEPATIDA",
     priceBRL: 680,
   },
