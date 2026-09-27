@@ -305,7 +305,7 @@ const productsData: Product[] = [
     concentration: "40mg Caneta",
     description: "Apresentação em 1 caneta de 40mg.",
     manufacturer: "RETAGEN OXYGEN",
-    image: "",
+    image: "https://i.imgur.com/Mg1gv0n.png",
     category: "RETATRUTIDA",
     priceBRL: 920.00,
   },
