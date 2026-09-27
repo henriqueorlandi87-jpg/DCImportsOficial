@@ -30,6 +30,16 @@ const productsData: Product[] = [
     priceBRL: 225,
   },
   {
+    id: 0,
+    name: "Ampola Tirzec 15mg",
+    concentration: "15mg por ampola",
+    description: "Contem 1 ampola de 15mg + 6 seringas 100ui .",
+    manufacturer: "QUIMFA",
+    image: "https://i.imgur.com/1CEqfAr.jpeg",
+    category: "TIRZEPATIDA",
+    priceBRL: 225,
+  },
+  {
     id: 1,
     name: "Tirzepatida TG 15mg",
     concentration: "15mg por ampola",
