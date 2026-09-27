@@ -19,6 +19,16 @@ interface CartItem extends Product {
 }
 
 const productsData: Product[] = [
+    {
+    id: 0,
+    name: "Ampola TG 15mg",
+    concentration: "15mg por ampola",
+    description: "Contem 1 ampola de 15mg + 6 seringas 100ui .",
+    manufacturer: "INDUFAR",
+    image: "https://i.imgur.com/MyerDc4.jpeg",
+    category: "TIRZEPATIDA",
+    priceBRL: 225,
+  },
   {
     id: 1,
     name: "Tirzepatida TG 15mg",
