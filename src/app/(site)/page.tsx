@@ -1055,9 +1055,360 @@ const productsData: Product[] = [
     category: "PEPTÍDEOS",
     priceBRL: 650.00,
   },
+  {
+    id: 301,
+    name: "Muscle Testex 250MG 10ML",
+    concentration: "250MG",
+    description: "Ampola de 10ml.",
+    manufacturer: "Muscle",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 290.00
+  },
+  {
+    id: 302,
+    name: "Muscle Enantato (Testoviron) 250MG 10ML",
+    concentration: "250MG",
+    description: "Ampola de 10ml.",
+    manufacturer: "Muscle",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 290.00
+  },
+  {
+    id: 303,
+    name: "Pharma Test P100 (Testosterona Propionato) 100MG",
+    concentration: "100MG",
+    description: "Testosterona Propionato.",
+    manufacturer: "Pharma",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 380.00
+  },
+  {
+    id: 304,
+    name: "Cooper Susobolic (Durateston) 250MG/1ML",
+    concentration: "250MG/1ML",
+    description: "Durateston.",
+    manufacturer: "Cooper",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 390.00
+  },
+  {
+    id: 305,
+    name: "Eminence Testo-MIX (Sustant) 250MG – 10 Vial",
+    concentration: "250MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Eminence",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 380.00
+  },
+  {
+    id: 306,
+    name: "ZPHC Testosterona Propionate 100 MG",
+    concentration: "100MG",
+    description: "Testosterona Propionate.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 390.00
+  },
+  {
+    id: 307,
+    name: "Pharma Test C250 (Testosterona Cypionato) 250MG",
+    concentration: "250MG",
+    description: "Testosterona Cypionato.",
+    manufacturer: "Pharma",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 460.00
+  },
+  {
+    id: 308,
+    name: "Pharma Test E300 (Testosterona Enantato) 300MG",
+    concentration: "300MG",
+    description: "Testosterona Enantato.",
+    manufacturer: "Pharma",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 480.00
+  },
+  {
+    id: 309,
+    name: "ZPHC Testosterona Enantato 400MG/ML – 10 Vial",
+    concentration: "400MG/ML",
+    description: "Kit com 10 Vials.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 540.00
+  },
+  {
+    id: 310,
+    name: "Pharma Test E500 (Testosterona Enantato) 500MG",
+    concentration: "500MG",
+    description: "Testosterona Enantato.",
+    manufacturer: "Pharma",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 590.00
+  },
+  {
+    id: 311,
+    name: "Eminence Enaprime (Enantato) 250MG – 10 Vial",
+    concentration: "250MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Eminence",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 345.00
+  },
+  {
+    id: 312,
+    name: "Eminence Proprime (Propionato) 100MG – 10 Vial",
+    concentration: "100MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Eminence",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 345.00
+  },
+  {
+    id: 313,
+    name: "Muscle Primobolan 100MG 10 ML",
+    concentration: "100MG",
+    description: "Ampola de 10ml.",
+    manufacturer: "Muscle",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 390.00
+  },
+  {
+    id: 314,
+    name: "Oxygen Primogen (Metenolona Enantato) 100MG – 10 Vial",
+    concentration: "100MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Oxygen",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 650.00
+  },
+  {
+    id: 315,
+    name: "Geniqs Primogenic 100MG – 10ML",
+    concentration: "100MG",
+    description: "Ampola de 10ml.",
+    manufacturer: "Geniqs",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 650.00
+  },
+  {
+    id: 316,
+    name: "ZPHC Metenolona Enantato (Primobolan) 100MG/ML – 10 Vial",
+    concentration: "100MG/ML",
+    description: "Kit com 10 Vials.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 1090.00
+  },
+  {
+    id: 317,
+    name: "Cooper Primobolic (Metanolona Enantato) 100MG – 10 Vial",
+    concentration: "100MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Cooper",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 1050.00
+  },
+  {
+    id: 318,
+    name: "Muscle Masteron 100MG 10ML",
+    concentration: "100MG",
+    description: "Ampola de 10ml.",
+    manufacturer: "Muscle",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 390.00
+  },
+  {
+    id: 319,
+    name: "Oxygen Mastogen (Drostalona Propionato) 100MG – 10 Vial",
+    concentration: "100MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Oxygen",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 450.00
+  },
+  {
+    id: 320,
+    name: "Eminence Drostoprime (Masteron) 100MG – 10 Vial",
+    concentration: "100MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Eminence",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 450.00
+  },
+  {
+    id: 321,
+    name: "ZPHC Drostanolone Propionate 100 MG (Masteron)",
+    concentration: "100MG",
+    description: "Masteron Propionate.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 520.00
+  },
+  {
+    id: 322,
+    name: "Muscle Deca Durabolin XT 300MG 10ML",
+    concentration: "300MG",
+    description: "Ampola de 10ml.",
+    manufacturer: "Muscle",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 280.00
+  },
+  {
+    id: 323,
+    name: "Muscle Dynabolan 100MG 10ML",
+    concentration: "100MG",
+    description: "Ampola de 10ml.",
+    manufacturer: "Muscle",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 280.00
+  },
+  {
+    id: 324,
+    name: "Eminence Decaprime (Deca) 200MG – 10 Vial",
+    concentration: "200MG",
+    description: "Kit com 10 Vials.",
+    manufacturer: "Eminence",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 330.00
+  },
+  {
+    id: 325,
+    name: "Pharma Nan PH100 (Nandrolona Phenylpropionato) 100MG",
+    concentration: "100MG",
+    description: "Nandrolona Phenylpropionato.",
+    manufacturer: "Pharma",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 410.00
+  },
+  {
+    id: 326,
+    name: "Pharma Nan D300 (Nandrolona Decanoato) 300MG",
+    concentration: "300MG",
+    description: "Nandrolona Decanoato.",
+    manufacturer: "Pharma",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 430.00
+  },
+  {
+    id: 327,
+    name: "Muscle Trenbolona (Parabolan) 100MG",
+    concentration: "100MG",
+    description: "Trenbolona Parabolan.",
+    manufacturer: "Muscle",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 280.00
+  },
+  {
+    id: 328,
+    name: "ZPHC Dihydroboldenone Cypionato 75MG",
+    concentration: "75MG",
+    description: "Dihydroboldenone Cypionate.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 645.00
+  },
+  {
+    id: 329,
+    name: "Pharma Mix-01 (Boldenona Undecylonato + Testosterona Cypionato) 400MG",
+    concentration: "400MG",
+    description: "Blend de Boldenona e Testosterona.",
+    manufacturer: "Pharma",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 490.00
+  },
+  {
+    id: 330,
+    name: "ZPHC Mega Mass Mix 50 MG – 05 Vial",
+    concentration: "50MG",
+    description: "Kit com 5 Vials.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 1240.00
+  },
+  {
+    id: 331,
+    name: "ZPHC Double Burn Mix 25MG – 05 Vial",
+    concentration: "25MG",
+    description: "Kit com 5 Vials.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 1240.00
+  },
+  {
+    id: 332,
+    name: "ZPHC ZPTROP 16 IU",
+    concentration: "16 IU",
+    description: "Hormônio do Crescimento.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 380.00
+  },
+  {
+    id: 333,
+    name: "ZPHC ZPTROP 32 IU",
+    concentration: "32 IU",
+    description: "Hormônio do Crescimento.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 520.00
+  },
+  {
+    id: 334,
+    name: "ZPHC GH ZPTROP (80 UI) – 05 Vial",
+    concentration: "80 UI",
+    description: "Kit com 5 Vials.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 1120.00
+  },
+  {
+    id: 335,
+    name: "ZPHC ZPTROP 200 IU – 02 Vial",
+    concentration: "200 IU",
+    description: "Kit com 2 Vials.",
+    manufacturer: "ZPHC",
+    image: "",
+    category: "ANABOLIZANTES",
+    priceBRL: 2180.00
+  }
+
 ];
 
-const categories = ["PROMOÇÕES", "RETATRUTIDA", "TIRZEPATIDA", "PEPTÍDEOS", "HORMÔNIOS"];
+const categories = ["PROMOÇÕES", "RETATRUTIDA", "TIRZEPATIDA", "PEPTÍDEOS", "ANABOLIZANTES"];
 
 export default function ZPHCStorePage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("PROMOÇÕES");
