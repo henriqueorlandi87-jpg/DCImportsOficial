@@ -1061,7 +1061,7 @@ const productsData: Product[] = [
     concentration: "250MG",
     description: "Ampola de 10ml.",
     manufacturer: "Muscle",
-    image: "",
+    image: "https://i.imgur.com/Xu9gYYS.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 290.00
   },
@@ -1071,7 +1071,7 @@ const productsData: Product[] = [
     concentration: "250MG",
     description: "Ampola de 10ml.",
     manufacturer: "Muscle",
-    image: "",
+    image: "https://i.imgur.com/4LkqHl3.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 290.00
   },
@@ -1081,7 +1081,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Testosterona Propionato.",
     manufacturer: "Pharma",
-    image: "",
+    image: "https://i.imgur.com/P1mZYjT.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 380.00
   },
@@ -1091,7 +1091,7 @@ const productsData: Product[] = [
     concentration: "250MG/1ML",
     description: "Durateston.",
     manufacturer: "Cooper",
-    image: "",
+    image: "https://i.imgur.com/GGrwLhI.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 390.00
   },
@@ -1101,7 +1101,7 @@ const productsData: Product[] = [
     concentration: "250MG",
     description: "Kit com 10 Vials.",
     manufacturer: "Eminence",
-    image: "",
+    image: "https://i.imgur.com/aBGYt3S.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 380.00
   },
@@ -1111,7 +1111,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Testosterona Propionate.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/1kNEX54.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 390.00
   },
@@ -1121,7 +1121,7 @@ const productsData: Product[] = [
     concentration: "250MG",
     description: "Testosterona Cypionato.",
     manufacturer: "Pharma",
-    image: "",
+    image: "https://i.imgur.com/IP36ht8.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 460.00
   },
@@ -1131,7 +1131,7 @@ const productsData: Product[] = [
     concentration: "300MG",
     description: "Testosterona Enantato.",
     manufacturer: "Pharma",
-    image: "",
+    image: "https://i.imgur.com/YTx4owR.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 480.00
   },
@@ -1141,7 +1141,7 @@ const productsData: Product[] = [
     concentration: "400MG/ML",
     description: "Kit com 10 Vials.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/SmoU5CJ.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 540.00
   },
@@ -1151,7 +1151,7 @@ const productsData: Product[] = [
     concentration: "500MG",
     description: "Testosterona Enantato.",
     manufacturer: "Pharma",
-    image: "",
+    image: "https://i.imgur.com/TkTPjxS.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 590.00
   },
@@ -1161,7 +1161,7 @@ const productsData: Product[] = [
     concentration: "250MG",
     description: "Kit com 10 Vials.",
     manufacturer: "Eminence",
-    image: "",
+    image: "https://i.imgur.com/JjZRhYp.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 345.00
   },
@@ -1171,7 +1171,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Kit com 10 Vials.",
     manufacturer: "Eminence",
-    image: "",
+    image: "https://i.imgur.com/WeZfBYF.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 345.00
   },
@@ -1181,7 +1181,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Ampola de 10ml.",
     manufacturer: "Muscle",
-    image: "",
+    image: "https://i.imgur.com/mK7DR48.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 390.00
   },
@@ -1191,7 +1191,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Kit com 10 Vials.",
     manufacturer: "Oxygen",
-    image: "",
+    image: "https://i.imgur.com/gxyk7mW.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 650.00
   },
@@ -1201,7 +1201,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Ampola de 10ml.",
     manufacturer: "Geniqs",
-    image: "",
+    image: "https://i.imgur.com/7NZ52WQ.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 650.00
   },
@@ -1211,27 +1211,58 @@ const productsData: Product[] = [
     concentration: "100MG/ML",
     description: "Kit com 10 Vials.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/3dzF3L0.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 1090.00
   },
   {
     id: 317,
-    name: "Cooper Primobolic (Metanolona Enantato) 100MG – 10 Vial",
+    name: "Cooper Primobolic (Metanolona Enantato) 100MG – 10 ampolas",
     concentration: "100MG",
-    description: "Kit com 10 Vials.",
+    description: "Kit com 10 Ampolas.",
     manufacturer: "Cooper",
-    image: "",
+    image: "https://i.imgur.com/IYLKDTA.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 1050.00
   },
+  {
+    id: 3117,
+    name: "Cooper Cypobolic (Cipionato de Testosaterona) 250MG – 10 ampolas",
+    concentration: "250MG",
+    description: "Kit com 10 Ampolas.",
+    manufacturer: "Cooper",
+    image: "https://i.imgur.com/18UohKS.jpeg",
+    category: "ANABOLIZANTES",
+    priceBRL: 400.00
+  },
+   {
+    id: 3117,
+    name: "COOPER DECABOLIC (NANDROLONE DECANOATE) 250MG – 10 Ampolas",
+    concentration: "250MG",
+    description: "Kit com 10 Ampolas.",
+    manufacturer: "Cooper",
+    image: "https://i.imgur.com/eIDyoZc.jpeg",
+    category: "ANABOLIZANTES",
+    priceBRL: 450.00
+  },
+  {
+    id: 31117,
+    name: "COOPER nanbolic-ph (nandrolone) 1000MG – 10 Ampolas",
+    concentration: "100MG",
+    description: "Kit com 10 Ampolas.",
+    manufacturer: "Cooper",
+    image: "https://i.imgur.com/ZGtJU5s.jpeg",
+    category: "ANABOLIZANTES",
+    priceBRL: 490.00
+  },
+  
   {
     id: 318,
     name: "Muscle Masteron 100MG 10ML",
     concentration: "100MG",
     description: "Ampola de 10ml.",
     manufacturer: "Muscle",
-    image: "",
+    image: "https://i.imgur.com/5fSXlL2.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 390.00
   },
@@ -1241,7 +1272,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Kit com 10 Vials.",
     manufacturer: "Oxygen",
-    image: "",
+    image: "https://i.imgur.com/Yu4fpQH.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 450.00
   },
@@ -1251,7 +1282,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Kit com 10 Vials.",
     manufacturer: "Eminence",
-    image: "",
+    image: "https://i.imgur.com/6HeqXGP.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 450.00
   },
@@ -1261,7 +1292,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Masteron Propionate.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/4FFdZag.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 520.00
   },
@@ -1271,7 +1302,7 @@ const productsData: Product[] = [
     concentration: "300MG",
     description: "Ampola de 10ml.",
     manufacturer: "Muscle",
-    image: "",
+    image: "https://i.imgur.com/U7XeVuN.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 280.00
   },
@@ -1281,7 +1312,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Ampola de 10ml.",
     manufacturer: "Muscle",
-    image: "",
+    image: "https://i.imgur.com/i2T3sOh.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 280.00
   },
@@ -1291,7 +1322,7 @@ const productsData: Product[] = [
     concentration: "200MG",
     description: "Kit com 10 Vials.",
     manufacturer: "Eminence",
-    image: "",
+    image: "https://i.imgur.com/wcCZwOL.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 330.00
   },
@@ -1301,7 +1332,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Nandrolona Phenylpropionato.",
     manufacturer: "Pharma",
-    image: "",
+    image: "https://i.imgur.com/UihfenG.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 410.00
   },
@@ -1311,7 +1342,7 @@ const productsData: Product[] = [
     concentration: "300MG",
     description: "Nandrolona Decanoato.",
     manufacturer: "Pharma",
-    image: "",
+    image: "https://i.imgur.com/9PbVomB.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 430.00
   },
@@ -1321,7 +1352,7 @@ const productsData: Product[] = [
     concentration: "100MG",
     description: "Trenbolona Parabolan.",
     manufacturer: "Muscle",
-    image: "",
+    image: "https://i.imgur.com/cNqGo6X.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 280.00
   },
@@ -1331,7 +1362,7 @@ const productsData: Product[] = [
     concentration: "75MG",
     description: "Dihydroboldenone Cypionate.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/3oJx5C9.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 645.00
   },
@@ -1341,7 +1372,7 @@ const productsData: Product[] = [
     concentration: "400MG",
     description: "Blend de Boldenona e Testosterona.",
     manufacturer: "Pharma",
-    image: "",
+    image: "https://i.imgur.com/KiLppFp.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 490.00
   },
@@ -1351,7 +1382,7 @@ const productsData: Product[] = [
     concentration: "50MG",
     description: "Kit com 5 Vials.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/SFgDQy8.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 1240.00
   },
@@ -1361,7 +1392,7 @@ const productsData: Product[] = [
     concentration: "25MG",
     description: "Kit com 5 Vials.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/pVFJ6pY.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 1240.00
   },
@@ -1371,7 +1402,7 @@ const productsData: Product[] = [
     concentration: "16 IU",
     description: "Hormônio do Crescimento.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/N4oc2PC.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 380.00
   },
@@ -1381,7 +1412,7 @@ const productsData: Product[] = [
     concentration: "32 IU",
     description: "Hormônio do Crescimento.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/GLxuS99.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 520.00
   },
@@ -1391,7 +1422,7 @@ const productsData: Product[] = [
     concentration: "80 UI",
     description: "Kit com 5 Vials.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/BypvSXm.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 1120.00
   },
@@ -1401,7 +1432,7 @@ const productsData: Product[] = [
     concentration: "200 IU",
     description: "Kit com 2 Vials.",
     manufacturer: "ZPHC",
-    image: "",
+    image: "https://i.imgur.com/olzU2cP.jpeg",
     category: "ANABOLIZANTES",
     priceBRL: 2180.00
   }
