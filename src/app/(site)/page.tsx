@@ -27,7 +27,7 @@ const productsData: Product[] = [
     manufacturer: "INDUFAR",
     image: "https://i.imgur.com/MyerDc4.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 225,
+    priceBRL: 250,
   },
   {
     id: 0,
@@ -37,7 +37,7 @@ const productsData: Product[] = [
     manufacturer: "QUIMFA",
     image: "https://i.imgur.com/1CEqfAr.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 225,
+    priceBRL: 250,
   },
   {
     id: 1,
@@ -47,7 +47,7 @@ const productsData: Product[] = [
     manufacturer: "INDUFAR",
     image: "https://cdestore.com.py/image/cache/catalog/medicamento/tg15-450x450.png",
     category: "TIRZEPATIDA",
-    priceBRL: 810,
+    priceBRL: 820,
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ const productsData: Product[] = [
     manufacturer: "ETICOS",
     image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/produtos/thumbs/big/068c98b7954bf75eb4648aab973bbd167f1fe674.webp",
     category: "TIRZEPATIDA",
-    priceBRL: 810,
+    priceBRL: 820,
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ const productsData: Product[] = [
     manufacturer: "ETICOS",
     image: "https://bucket-prod.us-ord-10.linodeobjects.com/site/media/fotos/produtos/thumbs/med/f05ee02e9de115f9378ba1c6bad6e30fcec98ee0.webp",
     category: "TIRZEPATIDA",
-    priceBRL: 770,
+    priceBRL: 820,
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const productsData: Product[] = [
     manufacturer: "QUIMFA",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_tirzec_15mg_05ml_204052_8e485f7a-bbba-4896-bb61-624a2086ad87.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 810,
+    priceBRL: 820,
   },
   {
     id: 5,
@@ -87,7 +87,7 @@ const productsData: Product[] = [
     manufacturer: "LIPOLAND",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_lipoland_15mg_05ml_1_frasco_204051_e161ad05-31c6-42e2-9beb-476d9bca90a8.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 810,
+    priceBRL: 820,
   },
   {
     id: 6,
@@ -97,7 +97,7 @@ const productsData: Product[] = [
     manufacturer: "LIPOLAND",
     image: "https://i.imgur.com/q0bNmmg.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 810,
+    priceBRL: 820,
   },
   {
     id: 7,
@@ -107,7 +107,7 @@ const productsData: Product[] = [
     manufacturer: "GLUCONEX",
     image: "https://us-ord-10.linodeobjects.com/bucket-prod/site/media/fotos/modelos/tirzepatida_gluconex_15mg_1ml_198243_ea91a962-658e-400f-959e-e657ff300229.med.avif",
     category: "TIRZEPATIDA",
-    priceBRL: 780,
+    priceBRL: 820,
   },
   {
     id: 8,
@@ -117,7 +117,7 @@ const productsData: Product[] = [
     manufacturer: "Tirzedral",
     image: "https://i.imgur.com/jqnSlJZ.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 780,
+    priceBRL: 820,
   },
   {
     id: 9,
@@ -127,7 +127,7 @@ const productsData: Product[] = [
     manufacturer: "T 36",
     image: "https://i.imgur.com/5GsdacB.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 780,
+    priceBRL: 820,
   },
   {
     id: 10,
@@ -137,7 +137,7 @@ const productsData: Product[] = [
     manufacturer: "TIRZEDRAL",
     image: "https://i.imgur.com/YiYwyzG.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 780,
+    priceBRL: 820,
   },
   {
     id: 11,
@@ -147,7 +147,7 @@ const productsData: Product[] = [
     manufacturer: "T 36",
     image: "https://i.imgur.com/hdsp60w.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 780,
+    priceBRL: 820,
   },
   {
     id: 12,
@@ -157,7 +157,7 @@ const productsData: Product[] = [
     manufacturer: "SLIMEX",
     image: "https://i.imgur.com/tjwbUdX.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 780,
+    priceBRL: 820,
   },
   {
     id: 13,
@@ -167,7 +167,7 @@ const productsData: Product[] = [
     manufacturer: "SLIMEX",
     image: "https://i.imgur.com/DfBA172.jpeg",
     category: "TIRZEPATIDA",
-    priceBRL: 780,
+    priceBRL: 820,
   },
   {
     id: 14,
@@ -177,18 +177,9 @@ const productsData: Product[] = [
     manufacturer: "TNL",
     image:"https://i.imgur.com/QdlfuMl.png",
     category: "TIRZEPATIDA",
-    priceBRL: 720,
+    priceBRL: 820,
   },
-  {
-    id: 15,
-    name: "Tirzepatida TNL 15mg",
-    concentration: "15mg por ampola",
-    description: "4 ampolas de 15mg, totalizando 60mg.",
-    manufacturer: "TNL",
-    image: "https://cdestore.com.py/image/cache/catalog/medicamento/screenshot2026-06-17072403-450x450.png",
-    category: "TIRZEPATIDA",
-    priceBRL: 720,
-  },
+  
   {
     id: 16,
     name: "Tirzepatida Thera Genetics 60mg Caneta",
@@ -227,7 +218,7 @@ const productsData: Product[] = [
     manufacturer: "OXYGEN",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRy72LOGaxsr1sw6BW97tuoW_nzobcORohg3MtRVNAaXdbNPYXcRIvxrrS&s=10",
     category: "TIRZEPATIDA",
-    priceBRL: 810,
+    priceBRL: 820,
   },
   {
     id: 20,
